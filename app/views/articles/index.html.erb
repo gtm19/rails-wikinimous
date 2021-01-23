@@ -1,0 +1,8 @@
+<h2 class="display-2">Articles</h2>
+
+<% @articles.each do |article| %>
+  <article class="p-3 my-3 card card-article">
+    <h4><%= article.title %></h4>
+    <p><%= article.content %></p>
+  </article>
+<% end %>
