@@ -4,3 +4,14 @@
 .card-article {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
+.list-inline {
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.list-inline li {
+  font-size: x-large;
+  margin: 5px;
+}
